@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/10Score.unity
     guid: d44475b6fcef6604ab406c7912c859bb
+  - enabled: 1
+    path: Assets/Scenes/10Move.unity
+    guid: c3b40c3f1d7a52d44b2ac4834b40c150
   m_configObjects: {}
