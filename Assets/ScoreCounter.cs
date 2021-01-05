@@ -5,12 +5,12 @@ using UnityEngine.UI;
 
 public class ScoreCounter : MonoBehaviour
 {
-    private int score;
-    // Start is called before the first frame update
+    int score;
+
     void Start()
     {
         score = 0;
-        GetComponent<Text>().text = score.ToString();
+        
     }
 
     // Update is called once per frame
@@ -21,6 +21,8 @@ public class ScoreCounter : MonoBehaviour
     public void CountUp()
     {
         score = score + 1;
-        GetComponent<Text>().text = score.ToString();
+        
     }
+
+
 }
